@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="35dp"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:id="@+id/quickscroll_container"
+    android:background="@android:color/holo_blue_light">
+<TextView 
+    android:id="@+id/quickscroll_textview"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:textColor="@android:color/white"
+     android:text="demo"
+    />
+</LinearLayout>
