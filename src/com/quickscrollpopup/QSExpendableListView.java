@@ -75,17 +75,6 @@ public class QSExpendableListView extends ExpandableListView  {
 		});
 	}
 
-	@Override
-	protected boolean overScrollBy(int deltaX, int deltaY, int scrollX,
-			int scrollY, int scrollRangeX, int scrollRangeY,
-			int maxOverScrollX, int maxOverScrollY, boolean isTouchEvent) {
-		Log.e("Upendra", "overScrollBy() deltaY:"+deltaY);
-		Log.e("Upendra", "overScrollBy() scrollY:"+scrollY);
-		Log.e("Upendra", "overScrollBy() maxOverScrollY:"+maxOverScrollY);
-
-		return super.overScrollBy(deltaX, deltaY, scrollX, scrollY, scrollRangeX,
-				scrollRangeY, maxOverScrollX, maxOverScrollY, isTouchEvent);
-	}
 	
 	public boolean isQuickScrollEnable(){
 		return isQuickScrollEnable;
